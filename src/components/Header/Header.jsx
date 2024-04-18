@@ -13,11 +13,11 @@ export default function Header() {
     <>
       <header className="header white-bg hide-on-tab">
         <nav className="header-nav">
-                      <div className='header-logo'>
-                        <Link to="/" className="logo">
-                            <Logo />
-                        </Link>
-                      </div>
+            <div className='header-logo'>
+              <Link to="/" className="logo">
+                  <Logo />
+              </Link>
+            </div>
 
                       <div className="header-menu">
                           <ul>
@@ -69,15 +69,15 @@ export default function Header() {
                           </ul>
                       </div>
 
-                      <div className='header-icons'>
-                        <Link to="/" className="notify">
-                          <Notify/>
-                        </Link>
+            <div className='header-icons'>
+              <Link to="/" className="notify">
+                 <Notify/>
+              </Link>
 
-                        <Link to="/" className="account">
-                          <Account/>
-                        </Link>
-                      </div>
+              <Link to="/" className="account">
+                 <Account/>
+              </Link>
+            </div>
         </nav>
       </header>
       
