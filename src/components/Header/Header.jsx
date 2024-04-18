@@ -19,7 +19,7 @@ export default function Header() {
               </Link>
             </div>
 
-                      <div className="header-menu">
+            <div className="header-menu">
                           <ul>
                               <li>
                                   <NavLink
@@ -67,7 +67,7 @@ export default function Header() {
                                   </NavLink>
                               </li>
                           </ul>
-                      </div>
+            </div>
 
             <div className='header-icons'>
               <Link to="/" className="notify">
